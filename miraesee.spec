@@ -32,7 +32,8 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\Users\\chord\\Documents\\ForgeMaster\\Miraesee\\script\\icon\\sunglass_inq.ico'],
+    # icon=['C:\\Users\\chord\\Documents\\ForgeMaster\\Miraesee\\script\\icon\\sunglass_inq.ico'],
+    icon=icon/sunglass_inq.ico,
 )
 coll = COLLECT(
     exe,
